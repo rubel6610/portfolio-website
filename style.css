@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    background-image: linear-gradient(230deg,rgb(73, 73, 113), rgb(52, 134, 134),lightblue);
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    
+}
+.navbar-brand{
+    color: rgb(0, 0, 0);
+    
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+     margin:0;
+}
+
+.menu ul li{
+    margin:0px 5px 0 5px;
+    padding:5px;
+    color:rgba(255, 255, 255, 0.823);
+    font-weight: 600;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+
+
+
+h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 0;
+}
+h2{
+    font-size: 30px;
+    line-height: 1;
+}
+.color-highlight{
+    color:orangered;
+}
+section{
+    /* border:2px solid maroon; */
+    height: 480px;
+    display: flex;
+    font-family: Nunito Sans;
+    line-height: 2;
+}
+
+.first-section{
+    background: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?t=st=1731086698~exp=1731090298~hmac=97c9aa79b388c23d1c8f1821fe04383e4ae7b8e142eb23562e223029dfaef2d4&w=826);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+.half-width{
+
+   
+    width: 50%;
+    margin-left: 7%;
+     
+    
+    
+}
+.top-details{
+    margin-top:7%;
+}
+
+.half-width img{
+    width: 100%;
+    
+}
+.find-btn{
+    margin-top:3px;
+    padding:10px 15px;
+    background-image: linear-gradient(tomato, orangered);
+    color:wheat;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
