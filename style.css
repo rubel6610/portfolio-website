@@ -1,13 +1,18 @@
 body{
     margin:0;
-    background-image: linear-gradient(230deg,rgb(73, 73, 113), rgb(52, 134, 134),lightblue);
+    
+    font-family: Nunito Sans;
    
 }
-
+.menu-sect{
+    background-image: linear-gradient(200deg,rgb(73, 73, 113), rgb(52, 134, 134),rgb(52, 129, 155));
+}
 header{
     display: flex;
     justify-content: space-between;
-    margin: 10px 50px;
+    margin: 0px 50px;
+   
+    
     
 }
 .navbar-brand{
@@ -44,29 +49,21 @@ h2{
 .color-highlight{
     color:orangered;
 }
-section{
-    /* border:2px solid maroon; */
-    height: 480px;
-    display: flex;
-    font-family: Nunito Sans;
-    line-height: 2;
-}
+
 
 .first-section{
+    height: 500px;
+    line-height: 2;
     background: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?t=st=1731086698~exp=1731090298~hmac=97c9aa79b388c23d1c8f1821fe04383e4ae7b8e142eb23562e223029dfaef2d4&w=826);
-
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color:white;
 }
 .half-width{
-
-   
-    width: 50%;
+    width: 40%;
     margin-left: 7%;
-     
-    
     
 }
 .top-details{
@@ -85,4 +82,37 @@ section{
     text-decoration: none;
     border-radius: 5px;
     font-weight: 600;
+}
+
+.second-section{
+    height: 32em;
+    display: flex;
+}
+
+.second-section h1{
+   
+    text-align: center;
+    font-size: 40px;
+   
+
+}
+
+.experience-sect{
+    /* display: flex; */
+    
+}
+
+.e-img{
+    width: 50%;
+    float: left;
+    
+}
+.second-section img{
+    width: 100%;
+    scale: 0.8;
+    border-radius: 50%;
+}
+.e-details{
+    width: 50%;
+    float: right;
 }
